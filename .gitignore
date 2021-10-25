@@ -1,6 +1,4 @@
 
-!*.xcodeproj/xcshareddata/
-!*.xcworkspace/contents.xcworkspacedata
 **/.DS_Store
-**/.xcuserstate
-*.xcuserdata
+
+xcuserdata/
