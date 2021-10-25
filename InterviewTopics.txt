@@ -1,0 +1,26 @@
+Class vs struct
+Unwrapping Optionals: benefit of optionals
+Multithreading with GCD
+Extensions
+Array vs Set vs Dictionary
+Enum associated / Raw values
+Access modifiers: open, public, internal, fileprivate, private
+Tableview/collectionView: 
+  - delegate and datasource, how does dequeueing cells work
+Landscape vs portrait: size classes
+Parsing JSON, custom keys
+Using URLSession, 
+Using URLComponents
+Escaping Closure
+What is MVC and what are the pros and cons
+What is MVVM?
+Converting MVC to MVVM
+ARC - how are references managed
+Strong Reference cycle (memory leak)
+Where is it commonly found, how to fix it
+Autolayout and constraints
+Frame vs bounds
+OOP / inheritance / Polymorphism
+Protocol composition
+Using Generics
+
