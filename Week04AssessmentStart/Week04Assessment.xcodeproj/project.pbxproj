@@ -8,11 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9E1078412726C52A002A0FBA /* Instruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1078402726C52A002A0FBA /* Instruction.swift */; };
-		9E1078452726C565002A0FBA /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1078432726C565002A0FBA /* Episode.swift */; };
-		9E1078462726C565002A0FBA /* EpisodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1078442726C565002A0FBA /* EpisodeViewModel.swift */; };
 		9E1078482726C56B002A0FBA /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1078472726C56B002A0FBA /* NetworkService.swift */; };
-		9E10784B2726C7EC002A0FBA /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1078492726C7EC002A0FBA /* MyCell.swift */; };
-		9E10784C2726C7EC002A0FBA /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E10784A2726C7EC002A0FBA /* MyCell.xib */; };
 		9E3136BB2726C19900DAD13E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3136BA2726C19900DAD13E /* AppDelegate.swift */; };
 		9E3136BD2726C19900DAD13E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3136BC2726C19900DAD13E /* SceneDelegate.swift */; };
 		9E3136BF2726C19900DAD13E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3136BE2726C19900DAD13E /* ViewController.swift */; };
@@ -23,11 +19,7 @@
 
 /* Begin PBXFileReference section */
 		9E1078402726C52A002A0FBA /* Instruction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instruction.swift; sourceTree = "<group>"; };
-		9E1078432726C565002A0FBA /* Episode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
-		9E1078442726C565002A0FBA /* EpisodeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeViewModel.swift; sourceTree = "<group>"; };
 		9E1078472726C56B002A0FBA /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
-		9E1078492726C7EC002A0FBA /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
-		9E10784A2726C7EC002A0FBA /* MyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
 		9E3136B72726C19900DAD13E /* Week04Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week04Assessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E3136BA2726C19900DAD13E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E3136BC2726C19900DAD13E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +53,36 @@
 			name = AppFiles;
 			sourceTree = "<group>";
 		};
+		9E1078DF27283591002A0FBA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9E1078E027283596002A0FBA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		9E1078E12728359B002A0FBA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9E3136BE2726C19900DAD13E /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9E1078E2272835A0002A0FBA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9E1078472726C56B002A0FBA /* NetworkService.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
 		9E3136AE2726C19900DAD13E = {
 			isa = PBXGroup;
 			children = (
@@ -81,13 +103,11 @@
 		9E3136B92726C19900DAD13E /* Week04Assessment */ = {
 			isa = PBXGroup;
 			children = (
-				9E3136BE2726C19900DAD13E /* ViewController.swift */,
-				9E1078442726C565002A0FBA /* EpisodeViewModel.swift */,
-				9E1078432726C565002A0FBA /* Episode.swift */,
-				9E1078472726C56B002A0FBA /* NetworkService.swift */,
-				9E1078492726C7EC002A0FBA /* MyCell.swift */,
-				9E10784A2726C7EC002A0FBA /* MyCell.xib */,
 				9E3136C02726C19900DAD13E /* Main.storyboard */,
+				9E1078E2272835A0002A0FBA /* Network */,
+				9E1078E12728359B002A0FBA /* Controller */,
+				9E1078E027283596002A0FBA /* ViewModel */,
+				9E1078DF27283591002A0FBA /* Model */,
 				9E1078422726C532002A0FBA /* AppFiles */,
 			);
 			path = Week04Assessment;
@@ -151,7 +171,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E3136C72726C19B00DAD13E /* LaunchScreen.storyboard in Resources */,
-				9E10784C2726C7EC002A0FBA /* MyCell.xib in Resources */,
 				9E3136C42726C19B00DAD13E /* Assets.xcassets in Resources */,
 				9E3136C22726C19900DAD13E /* Main.storyboard in Resources */,
 			);
@@ -167,9 +186,6 @@
 				9E3136BF2726C19900DAD13E /* ViewController.swift in Sources */,
 				9E3136BB2726C19900DAD13E /* AppDelegate.swift in Sources */,
 				9E1078412726C52A002A0FBA /* Instruction.swift in Sources */,
-				9E1078452726C565002A0FBA /* Episode.swift in Sources */,
-				9E1078462726C565002A0FBA /* EpisodeViewModel.swift in Sources */,
-				9E10784B2726C7EC002A0FBA /* MyCell.swift in Sources */,
 				9E1078482726C56B002A0FBA /* NetworkService.swift in Sources */,
 				9E3136BD2726C19900DAD13E /* SceneDelegate.swift in Sources */,
 			);
